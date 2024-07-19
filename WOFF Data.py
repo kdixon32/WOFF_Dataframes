@@ -25,4 +25,6 @@ print(highMagic['Size'].value_counts(normalize=True)) #Average Sizes for High Ma
 # S     0.186813
 # XL    0.131868
 print(highMagic['HP Growth'].value_counts())
-print(LowMagic['STR Growth'].value_counts())
+print(LowMagic['HP Growth'].value_counts())
+
+print(highMagic.loc[highMagic['MAG Growth'] == 5])
